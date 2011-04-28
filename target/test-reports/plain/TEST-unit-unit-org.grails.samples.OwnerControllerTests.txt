@@ -1,0 +1,81 @@
+Testsuite: org.grails.samples.OwnerControllerTests
+Tests run: 6, Failures: 0, Errors: 2, Time elapsed: 1,846 sec
+------------- Standard Output ---------------
+--Output from testAddGET--
+--Output from testAddInvalidOwner--
+--Output from testValidOwner--
+--Output from testFindNoResults--
+--Output from testFindOneResult--
+--Output from testFindManyResults--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testAddGET--
+--Output from testAddInvalidOwner--
+--Output from testValidOwner--
+--Output from testFindNoResults--
+--Output from testFindOneResult--
+--Output from testFindManyResults--
+------------- ---------------- ---------------
+
+Testcase: testAddGET took 1,04 sec
+Testcase: testAddInvalidOwner took 0,578 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at grails.test.MockUtils$_addValidateMethod_closure83.doCall(MockUtils.groovy:973)
+	at grails.test.MockUtils$_addValidateMethod_closure84.doCall(MockUtils.groovy:1014)
+	at grails.test.MockUtils$_addDynamicInstanceMethods_closure67.doCall(MockUtils.groovy:736)
+	at grails.test.MockUtils$_addDynamicInstanceMethods_closure67.doCall(MockUtils.groovy)
+	at org.grails.samples.OwnerController$_closure1.doCall(OwnerController.groovy:11)
+	at org.grails.samples.OwnerController$_closure1.doCall(OwnerController.groovy)
+	at org.grails.samples.OwnerControllerTests.testAddInvalidOwner(OwnerControllerTests.groovy:20)
+	at TestApp$_run_closure4.doCall(TestApp:268)
+	at TestApp$_run_closure4.call(TestApp)
+	at TestApp$_run_closure2.doCall(TestApp:225)
+	at TestApp$_run_closure1_closure21.doCall(TestApp:184)
+	at TestApp$_run_closure1.doCall(TestApp:171)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:101)
+	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:427)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:415)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.executeTargets(Gant.groovy:590)
+	at gant.Gant.executeTargets(Gant.groovy:589)
+
+Testcase: testValidOwner took 0,075 sec
+	Caused an ERROR
+null
+java.lang.NullPointerException
+	at grails.test.MockUtils$_addValidateMethod_closure83.doCall(MockUtils.groovy:973)
+	at grails.test.MockUtils$_addValidateMethod_closure84.doCall(MockUtils.groovy:1014)
+	at grails.test.MockUtils$_addDynamicInstanceMethods_closure67.doCall(MockUtils.groovy:736)
+	at grails.test.MockUtils$_addDynamicInstanceMethods_closure67.doCall(MockUtils.groovy)
+	at org.grails.samples.OwnerController$_closure1.doCall(OwnerController.groovy:11)
+	at org.grails.samples.OwnerController$_closure1.doCall(OwnerController.groovy)
+	at org.grails.samples.OwnerControllerTests.testValidOwner(OwnerControllerTests.groovy:36)
+	at TestApp$_run_closure4.doCall(TestApp:268)
+	at TestApp$_run_closure4.call(TestApp)
+	at TestApp$_run_closure2.doCall(TestApp:225)
+	at TestApp$_run_closure1_closure21.doCall(TestApp:184)
+	at TestApp$_run_closure1.doCall(TestApp:171)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:101)
+	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:427)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:415)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.executeTargets(Gant.groovy:590)
+	at gant.Gant.executeTargets(Gant.groovy:589)
+
+Testcase: testFindNoResults took 0,061 sec
+Testcase: testFindOneResult took 0,045 sec
+Testcase: testFindManyResults took 0,027 sec

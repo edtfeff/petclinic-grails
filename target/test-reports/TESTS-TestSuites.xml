@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="2" failures="0" hostname="fredrik-ejheds-macbook-pro.local" id="0" name="OwnerControllerTests" package="org.grails.samples" tests="6" time="1.846" timestamp="2011-04-28T14:43:15">
+      <properties />
+
+      <testcase classname="org.grails.samples.OwnerControllerTests" name="testAddGET" time="1.036" />
+
+      <testcase classname="org.grails.samples.OwnerControllerTests" name="testAddInvalidOwner" time="0.578">
+          <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at grails.test.MockUtils$_addValidateMethod_closure83.doCall(MockUtils.groovy:973)
+	at grails.test.MockUtils$_addValidateMethod_closure84.doCall(MockUtils.groovy:1014)
+	at grails.test.MockUtils$_addDynamicInstanceMethods_closure67.doCall(MockUtils.groovy:736)
+	at grails.test.MockUtils$_addDynamicInstanceMethods_closure67.doCall(MockUtils.groovy)
+	at org.grails.samples.OwnerController$_closure1.doCall(OwnerController.groovy:11)
+	at org.grails.samples.OwnerController$_closure1.doCall(OwnerController.groovy)
+	at org.grails.samples.OwnerControllerTests.testAddInvalidOwner(OwnerControllerTests.groovy:20)
+	at TestApp$_run_closure4.doCall(TestApp:268)
+	at TestApp$_run_closure4.call(TestApp)
+	at TestApp$_run_closure2.doCall(TestApp:225)
+	at TestApp$_run_closure1_closure21.doCall(TestApp:184)
+	at TestApp$_run_closure1.doCall(TestApp:171)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:101)
+	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:427)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:415)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.executeTargets(Gant.groovy:590)
+	at gant.Gant.executeTargets(Gant.groovy:589)
+</error>
+
+      </testcase>
+
+      <testcase classname="org.grails.samples.OwnerControllerTests" name="testValidOwner" time="0.076">
+          <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at grails.test.MockUtils$_addValidateMethod_closure83.doCall(MockUtils.groovy:973)
+	at grails.test.MockUtils$_addValidateMethod_closure84.doCall(MockUtils.groovy:1014)
+	at grails.test.MockUtils$_addDynamicInstanceMethods_closure67.doCall(MockUtils.groovy:736)
+	at grails.test.MockUtils$_addDynamicInstanceMethods_closure67.doCall(MockUtils.groovy)
+	at org.grails.samples.OwnerController$_closure1.doCall(OwnerController.groovy:11)
+	at org.grails.samples.OwnerController$_closure1.doCall(OwnerController.groovy)
+	at org.grails.samples.OwnerControllerTests.testValidOwner(OwnerControllerTests.groovy:36)
+	at TestApp$_run_closure4.doCall(TestApp:268)
+	at TestApp$_run_closure4.call(TestApp)
+	at TestApp$_run_closure2.doCall(TestApp:225)
+	at TestApp$_run_closure1_closure21.doCall(TestApp:184)
+	at TestApp$_run_closure1.doCall(TestApp:171)
+	at TestApp$_run_closure1.doCall(TestApp.groovy:101)
+	at gant.Gant$_dispatch_closure5.doCall(Gant.groovy:381)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy:415)
+	at gant.Gant$_dispatch_closure7.doCall(Gant.groovy)
+	at gant.Gant.withBuildListeners(Gant.groovy:427)
+	at gant.Gant.this$2$withBuildListeners(Gant.groovy)
+	at gant.Gant$this$2$withBuildListeners.callCurrent(Unknown Source)
+	at gant.Gant.dispatch(Gant.groovy:415)
+	at gant.Gant.this$2$dispatch(Gant.groovy)
+	at gant.Gant.invokeMethod(Gant.groovy)
+	at gant.Gant.executeTargets(Gant.groovy:590)
+	at gant.Gant.executeTargets(Gant.groovy:589)
+</error>
+
+      </testcase>
+
+      <testcase classname="org.grails.samples.OwnerControllerTests" name="testFindNoResults" time="0.061" />
+
+      <testcase classname="org.grails.samples.OwnerControllerTests" name="testFindOneResult" time="0.045" />
+
+      <testcase classname="org.grails.samples.OwnerControllerTests" name="testFindManyResults" time="0.027" />
+
+      <system-out><![CDATA[--Output from testAddGET--
+--Output from testAddInvalidOwner--
+--Output from testValidOwner--
+--Output from testFindNoResults--
+--Output from testFindOneResult--
+--Output from testFindManyResults--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testAddGET--
+--Output from testAddInvalidOwner--
+--Output from testValidOwner--
+--Output from testFindNoResults--
+--Output from testFindOneResult--
+--Output from testFindManyResults--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
