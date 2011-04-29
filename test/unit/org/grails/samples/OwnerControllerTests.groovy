@@ -27,7 +27,7 @@ class OwnerControllerTests extends grails.test.ControllerUnitTestCase {
 		def controller = newInstance()		
 		mockDomain(Owner)
 		
-		controller.params.owner = [firstName:'fred',
+		controller.params.owner = [firstName:'fredrik',
 								   lastName:'flintstone',	
 								   address:'rocky street',		
 								   city:'dinoville',		
