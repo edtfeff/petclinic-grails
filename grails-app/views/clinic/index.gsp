@@ -7,7 +7,7 @@
 	</head>
 	<body id="welcome">
 		<img src="${createLinkTo(dir:'images', file:'pets.png')}" align="right" style="position:relative;right:30px;">
-		<h2><g:message code="welcome"></g:message></h2>
+		<h2><g:message code="welcome feff"></g:message></h2>
 
 		<ul>
 		  <li><g:link controller="owner" action="find">Find owner</g:link></li>
