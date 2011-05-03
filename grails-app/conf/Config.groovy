@@ -39,6 +39,13 @@ environments {
     }
 }
 
+// CodeNarc configuration
+codenarc {
+ reportName = 'target/test-reports/CodeNarcReport.xml'
+ reportType = 'xml'
+ // any further settings like maxPriority1Violations=0
+}
+
 // log4j configuration
 log4j = {
     error  'org.codehaus.groovy.grails.web.servlet',  //  controllers
