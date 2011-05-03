@@ -43,7 +43,11 @@ environments {
 codenarc {
  reportName = 'target/test-reports/CodeNarcReport.xml'
  reportType = 'xml'
+
  // any further settings like maxPriority1Violations=0
+    maxPriority1Violations=0
+//    maxPriority2Violations=25
+    maxPriority3Violations=0
 }
 
 // log4j configuration
