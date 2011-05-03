@@ -47,7 +47,7 @@ codenarc {
  // any further settings like maxPriority1Violations=0
     maxPriority1Violations=0
 //    maxPriority2Violations=25
-    maxPriority3Violations=0
+    maxPriority3Violations=1
 }
 
 // log4j configuration
