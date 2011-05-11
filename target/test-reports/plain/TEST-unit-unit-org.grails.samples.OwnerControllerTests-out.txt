@@ -1,6 +1,0 @@
---Output from testAddGET--
---Output from testAddInvalidOwner--
---Output from testValidOwner--
---Output from testFindNoResults--
---Output from testFindOneResult--
---Output from testFindManyResults--
