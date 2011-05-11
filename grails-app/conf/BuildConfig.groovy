@@ -10,3 +10,9 @@ grails.project.dependency.resolution = {
 		grailsCentral()
     }
 }
+//cobertura exclusions
+coverage {
+	exclusions = [
+                    "**/gsp_*"
+    ]
+}
